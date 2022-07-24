@@ -3,20 +3,36 @@ body{
     text-align: center;
 }
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:seagreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(245, 236, 210);
 }
-
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(245, 236, 210)
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(245, 236, 210);
+}
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(85, 84, 84);
 }
-
 .topnav a {
     float: center;
-    color: seagreen;
+    color: rgb(245, 236, 210);
     text-align: center;
     padding: 14px 16px;
     text-decoration:double;
     font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 33.33%;
+    padding: 5px;
   }
