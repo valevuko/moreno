@@ -14,6 +14,9 @@ h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(245, 236, 210);
 }
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(245, 236, 210);}
 .topnav {
     overflow: hidden;
     background-color: rgb(85, 84, 84);
@@ -26,13 +29,9 @@ h4{
     text-decoration:double;
     font-size: 20px;
 }
-* {
-    box-sizing: border-box;
-  }
-  .row {
-    display: flex;
-  }
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
+footer {
+    color:rgb(245, 236, 210);
+}
+.div{
+    display:inline;
+    }
