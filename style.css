@@ -1,23 +1,27 @@
 body{
     background-color: black;
-    text-align: center;
 }
 h1 {
+    text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(245, 236, 210);
 }
 h3 {
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(245, 236, 210)
 }
 h4{
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(245, 236, 210);
 }
-p{
+p {
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(245, 236, 210);}
 .topnav {
+    text-align: center;
     overflow: hidden;
     background-color: rgb(85, 84, 84);
 }
@@ -32,6 +36,49 @@ p{
 footer {
     color:rgb(245, 236, 210);
 }
-.div{
-    display:inline;
-    }
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(245, 236, 210);
+    text-align: left;
+}
+input[type=name] {
+    width: 50%;
+    padding: 3px;
+    border: 1px solid rgb(245, 236, 210);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=mobile] {
+    width: 50%;
+    padding: 3px;
+    border: 1px solid rgb(245, 236, 210);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=mail] {
+    width: 50%;
+    padding: 3px;
+    border: 1px solid rgb(245, 236, 210);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=text], select, textarea {
+        width: 50%;
+        padding: 12px;
+        border: 1px solid rgb(245, 236, 210);
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
