@@ -16,12 +16,6 @@ h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(245, 236, 210);
 }
-img {
-    border-radius: 50%;
-    width: 300; 
-    height: 300px;
-    float: left;
-}
 p {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
